@@ -1,0 +1,13 @@
+---
+- name: run script
+
+  command: "curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -"
+
+- name: update apt
+  apt:
+    update_cache: yes
+
+- name: install node
+  apt:
+    name: nodejs
+    state: present

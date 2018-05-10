@@ -1,0 +1,13 @@
+---
+galaxy_info:
+  author: me
+  description: add nodesource ppa with scripts from https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions
+  company:
+  license:
+  min_ansible_version: 2.3
+  platforms:
+  - name: Debian
+    versions:
+    - stretch
+  galaxy_tags:
+dependencies: []
